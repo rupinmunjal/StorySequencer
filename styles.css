@@ -19,7 +19,7 @@ body {
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
+    max-width: 1200px;
     width: 100%;
     position: relative;
 }
@@ -74,10 +74,10 @@ h1 {
 }
 
 .answer-slot {
-    border: 2px dashed #999;
+    border: 2px solid #999;
     padding: 0.5rem;
     border-radius: 4px;
-    min-height: 2.5rem;
+    min-height: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
