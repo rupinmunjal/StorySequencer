@@ -143,5 +143,128 @@
             "The Blue Fairy rewards his bravery",
             "Pinocchio is turned into a real boy"
         ]
+    },
+    {
+        "text": "Rapunzel was taken by a witch and locked in a tall tower with no door. The witch climbed up by holding onto Rapunzel's long hair. One day, a prince heard Rapunzel singing and discovered her. They planned an escape, but the witch found out. Eventually, Rapunzel and the prince reunited and lived happily ever after.",
+        "events": [
+            "Rapunzel is taken by a witch",
+            "She is locked in a tall tower with no door",
+            "The witch climbs the tower using Rapunzel's hair",
+            "A prince hears Rapunzel singing",
+            "The prince discovers Rapunzel in the tower",
+            "They plan an escape",
+            "The witch finds out about the prince",
+            "Rapunzel and the prince reunite",
+            "They live happily ever after"
+        ]
+    },
+    {
+        "text": "The Pied Piper was hired to rid a town of its rat problem. He played his pipe, leading the rats into the river to drown. When the town refused to pay him, he led the children away, and they were never seen again.",
+        "events": [
+            "The Pied Piper is hired to rid a town of rats",
+            "He plays his pipe",
+            "The rats follow him into the river",
+            "The rats drown in the river",
+            "The town refuses to pay the Piper",
+            "The Piper plays his pipe again",
+            "He leads the children away",
+            "The children are never seen again"
+        ]
+    },
+    {
+        "text": "Beauty lived with her father. One day, her father took a rose from the Beast's garden. The Beast demanded Beauty live with him as punishment. Over time, Beauty and the Beast became friends, and Beauty fell in love with him. Her love broke the Beast's curse, turning him back into a prince.",
+        "events": [
+            "Beauty lives with her father",
+            "Her father takes a rose from the Beast's garden",
+            "The Beast demands Beauty live with him",
+            "Beauty and the Beast become friends",
+            "Beauty falls in love with the Beast",
+            "Beauty's love breaks the Beast's curse",
+            "The Beast turns back into a prince"
+        ]
+    },
+    {
+        "text": "Thumbelina was a tiny girl born from a flower. She had many adventures and was taken by different animals. Finally, she met a fairy prince her size and married him, living happily in the fairy kingdom.",
+        "events": [
+            "Thumbelina is born from a flower",
+            "She is a tiny girl",
+            "She has many adventures",
+            "Thumbelina is taken by different animals",
+            "She meets a fairy prince her size",
+            "They get married",
+            "Thumbelina lives happily in the fairy kingdom"
+        ]
+    },
+    {
+        "text": "Goldilocks entered the house of the Three Bears. She tried their porridge, chairs, and beds. When the bears came home, they found her asleep in Baby Bear's bed. Goldilocks woke up and ran away.",
+        "events": [
+            "Goldilocks enters the house of the Three Bears",
+            "She tries the porridge",
+            "She tries the chairs",
+            "She tries the beds",
+            "The bears come home",
+            "They find her asleep in Baby Bear's bed",
+            "Goldilocks wakes up",
+            "She runs away"
+        ]
+    },
+    {
+        "text": "The Little Mermaid saved a prince and fell in love with him. She made a deal with the sea witch to become human, sacrificing her voice. The prince married someone else, and the mermaid became sea foam but was rewarded with a soul.",
+        "events": [
+            "The Little Mermaid saves a prince",
+            "She falls in love with him",
+            "She makes a deal with the sea witch",
+            "She sacrifices her voice to become human",
+            "The prince marries someone else",
+            "The Little Mermaid becomes sea foam",
+            "She is rewarded with a soul"
+        ]
+    },
+    {
+        "text": "Ali Baba discovered a thieves' cave filled with treasure. He took some treasure home, but his brother got greedy and was caught by the thieves. With the help of a clever servant girl, Ali Baba defeated the thieves and lived happily with his newfound wealth.",
+        "events": [
+            "Ali Baba discovers a thieves' cave",
+            "He finds treasure inside",
+            "He takes treasure home",
+            "His brother gets greedy",
+            "The brother is caught by the thieves",
+            "A clever servant girl helps Ali Baba",
+            "They defeat the thieves",
+            "Ali Baba lives happily with his wealth"
+        ]
+    },
+    {
+        "text": "The Frog Prince was under a spell, turned into a frog. A princess promised to befriend him if he retrieved her golden ball from a pond. When she kept her promise, he turned back into a prince, and they married.",
+        "events": [
+            "The Frog Prince is under a spell",
+            "He is turned into a frog",
+            "A princess loses her golden ball",
+            "The frog retrieves the ball",
+            "The princess promises to befriend him",
+            "She keeps her promise",
+            "The frog turns back into a prince",
+            "They get married"
+        ]
+    },
+    {
+        "text": "The Elves and the Shoemaker worked together. Each night, the elves secretly made beautiful shoes for the shoemaker. When the shoemaker saw their work, he made tiny clothes for the elves to thank them. The elves never returned but left him with success.",
+        "events": [
+            "The Elves work for the Shoemaker each night",
+            "They make beautiful shoes",
+            "The Shoemaker sees their work",
+            "He makes tiny clothes for the Elves",
+            "The Elves never return",
+            "The Shoemaker becomes successful"
+        ]
+    },
+    {
+        "text": "The Little Match Girl sold matches on New Year's Eve. She lit matches to stay warm and saw visions of comfort. She eventually froze to death, and her spirit rose to heaven.",
+        "events": [
+            "The Little Match Girl sells matches on New Year's Eve",
+            "She lights matches to stay warm",
+            "She sees visions of comfort",
+            "She eventually freezes to death",
+            "Her spirit rises to heaven"
+        ]
     }
 ]
