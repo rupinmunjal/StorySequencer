@@ -12,6 +12,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #f0f0f0;
+    font-size: 18px;
 }
 
 .container {
@@ -52,7 +53,8 @@ h1 {
     gap: 1rem;
 }
 
-.options, .answer-slots {
+.options,
+.answer-slots {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
@@ -142,7 +144,8 @@ h1 {
         padding: 1rem;
     }
 
-    .options, .answer-slots {
+    .options,
+    .answer-slots {
         flex-direction: column;
     }
 
@@ -154,5 +157,75 @@ h1 {
         position: static;
         text-align: center;
         margin-bottom: 1rem;
+    }
+}
+
+/* Existing styles */
+
+/* New styles for the landing page */
+.landing {
+    text-align: center;
+    max-width: 1200px;
+    max-height: 100vh;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    color: #4CAF50;
+    margin-bottom: 2rem;
+}
+
+.game-description {
+    margin-bottom: 2rem;
+}
+
+.features,
+.how-to-play {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.features h2,
+.how-to-play h2 {
+    color: #4CAF50;
+    margin-bottom: 1rem;
+}
+
+.features ul,
+.how-to-play ol {
+    padding-left: 2rem;
+}
+
+#start-game {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    background-color: #4CAF50;
+    transition: background-color 0.3s ease;
+}
+
+#start-game:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+#back-to-landing {
+    background-color: #2196F3;
+}
+
+#back-to-landing:hover {
+    background-color: #1976D2;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .landing {
+        padding: 1rem;
+    }
+
+    .tagline {
+        font-size: 1.2rem;
     }
 }

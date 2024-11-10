@@ -1,31 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Story Sequencer</title>
+    <title>Story Sequencer - An Engaging Fairy Tale Game</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <div class="container">
-        <div id="score" class="score-box">Score: <span id="score-value">0</span></div>
+    <div class="container landing">
         <h1>Story Sequencer</h1>
-        <div id="story-container">
-            <p id="story-text"></p>
+        <p class="tagline">Unravel the Magic of Fairy Tales!</p>
+        
+        <div class="game-description">
+            <p>Welcome to Story Sequencer, where classic fairy tales come to life through your storytelling skills!</p>
+            <p>Arrange events in the correct order, challenge your memory, and dive into a world of enchanting narratives.</p>
         </div>
-        <div id="events-container">
-            <div id="options" class="options"></div>
-            <div id="answer-slots" class="answer-slots"></div>
+        
+        <div class="features">
+            <h2>Game Features:</h2>
+            <ul>
+                <li>20+ Classic Fairy Tales</li>
+                <li>Drag-and-Drop Sequencing</li>
+                <li>Progressive Difficulty</li>
+                <li>Score Tracking</li>
+            </ul>
         </div>
-        <div id="message" class="message"></div>
-        <div class="button-container">
-            <button id="submit-btn" class="action-btn">Submit</button>
-            <button id="reset-btn" class="action-btn reset-btn">Reset</button>
-        </div>        
+        
+        <div class="how-to-play">
+            <h2>How to Play:</h2>
+            <ol>
+                <li>Read the story carefully</li>
+                <li>Drag the events into the correct order</li>
+                <li>Submit your answer</li>
+                <li>Progress through more challenging levels</li>
+            </ol>
+        </div>
+        
+        <a href="game.html" class="action-btn" id="start-game">Start Playing Now!</a>
     </div>
+    
     <script src="script.js"></script>
 </body>
-
 </html>
