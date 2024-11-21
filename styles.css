@@ -181,10 +181,10 @@ h1 {
 
 .features,
 .how-to-play {
-    text-align: left;
-    margin-bottom: 2rem;
+    text-align: center;
+    margin: 0 auto 2rem auto;
+    max-width: 800px; 
 }
-
 .features h2,
 .how-to-play h2 {
     color: #4CAF50;
@@ -193,7 +193,8 @@ h1 {
 
 .features ul,
 .how-to-play ol {
-    padding-left: 2rem;
+    display: inline-block;
+    padding-left: 0;
 }
 
 #start-game {
