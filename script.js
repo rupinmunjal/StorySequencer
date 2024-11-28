@@ -98,11 +98,28 @@ function displayEvents() {
 function createEventElement(event, index) {
     const eventElement = document.createElement('div');
     eventElement.className = 'event';
-    eventElement.textContent = event;
+    
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(event, 'text/html');
+    const divs = doc.body.querySelectorAll('div');
+    
+    let eventText = '';
+    divs.forEach(div => {
+        eventText += div.outerHTML + ' ';
+    });
+
+    eventElement.innerHTML = eventText.trim();
     eventElement.draggable = true;
     eventElement.dataset.index = index;
+    
+    const innerDivs = eventElement.querySelectorAll('div');
+    innerDivs.forEach(div => {
+        div.style.display = 'inline-block';
+    });
+
     return eventElement;
 }
+
 
 function makeEventsDraggable() {
     const events = document.querySelectorAll('.event');
