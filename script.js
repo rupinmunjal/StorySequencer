@@ -98,25 +98,16 @@ function displayEvents() {
 function createEventElement(event, index) {
     const eventElement = document.createElement('div');
     eventElement.className = 'event';
-    
+
+    // Extract the text content from the HTML string
     const parser = new DOMParser();
     const doc = parser.parseFromString(event, 'text/html');
-    const divs = doc.body.querySelectorAll('div');
-    
-    let eventText = '';
-    divs.forEach(div => {
-        eventText += div.outerHTML + ' ';
-    });
+    const textContent = doc.body.textContent || doc.body.innerText; // Get the text without HTML tags
 
-    eventElement.innerHTML = eventText.trim();
+    eventElement.textContent = textContent; // Use the extracted text content
     eventElement.draggable = true;
     eventElement.dataset.index = index;
     
-    const innerDivs = eventElement.querySelectorAll('div');
-    innerDivs.forEach(div => {
-        div.style.display = 'inline-block';
-    });
-
     return eventElement;
 }
 

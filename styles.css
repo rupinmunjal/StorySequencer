@@ -17,7 +17,7 @@ body {
 
 .container {
     background-color: #fff;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 1200px;
@@ -166,35 +166,45 @@ h1 {
 .landing {
     text-align: center;
     max-width: 1200px;
-    max-height: 100vh;
+    max-height: 80vh;
+    margin-top: -4rem;
+}
+
+.title{
+    margin: 0;
 }
 
 .tagline {
     font-size: 1.5rem;
     color: #4CAF50;
-    margin-bottom: 2rem;
+    margin-bottom: 0.3rem;
 }
 
 .game-description {
-    margin-bottom: 2rem;
+    margin-bottom: 0.3rem;
 }
 
 .features,
 .how-to-play {
     text-align: center;
-    margin: 0 auto 2rem auto;
+    margin: 0 auto 0.3rem auto;
     max-width: 800px; 
 }
+
 .features h2,
 .how-to-play h2 {
     color: #4CAF50;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
 .features ul,
 .how-to-play ol {
     display: inline-block;
     padding-left: 0;
+}
+
+.how-to-play {
+    margin-bottom: 1.2rem;
 }
 
 #start-game {
@@ -219,6 +229,23 @@ h1 {
 #back-to-landing:hover {
     background-color: #1976D2;
 }
+
+.credits {
+    text-align: center;
+    font-size: 1rem;
+    color: #777;
+    margin-top: 2.5rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+.credits p {
+    margin: 0.3rem 0;
+}
+
+.credits p:first-child {
+    font-weight: bold;
+}
+
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
